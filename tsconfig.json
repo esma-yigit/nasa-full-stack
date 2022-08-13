@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext", "DOM"],
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"paths": {
+			"~@layouts/*": ["./src/layouts/*"],
+			"~@views/*": ["./src/views/*"],
+			"~@locales/*": ["./src/locales/*"],
+			"~@plugins/*": ["./src/plugins/*"],
+			"~@modules/*": ["./src/modules/*"],
+			"~@components/*": ["./src/components/*"]
+		}
+	}
+}

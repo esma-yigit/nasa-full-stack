@@ -1,0 +1,25 @@
+{
+	"name": "www-kit",
+	"version": "1.0.0",
+	"repository": "git@github.com:bumengi94/www-kit.git",
+	"author": "Buğra Mengi <bumengi94@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite"
+	},
+	"devDependencies": {
+		"@types/node": "^18.7.2",
+		"@vitejs/plugin-vue": "^3.0.3",
+		"vite": "^3.0.7"
+	},
+	"dependencies": {
+		"axios": "^0.27.2",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.4",
+		"pinia": "^2.0.18",
+		"rxjs": "^7.5.6",
+		"vue": "^3.2.37",
+		"vue-i18n": "^9.2.2",
+		"vue-router": "^4.1.3"
+	}
+}
