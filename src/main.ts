@@ -4,6 +4,8 @@ import { createPinia } from "pinia";
 import { router } from "~@plugins/router";
 import { i18n } from "~@plugins/i18n";
 
+import "./assets/index.css"
+
 const app = createApp(App);
 
 const pinia = createPinia();
