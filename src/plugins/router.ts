@@ -43,6 +43,24 @@ const routes: RouteRecordRaw[] = [
 				component: () => import("~@views/Home.vue"),
 				meta: { isPublic: false },
 			},
+			{
+				name: "Launch",
+				path: "/launch",
+				component: () => import("~@views/Launch.vue"),
+				meta: { isPublic: false },
+			},
+			{
+				name: "Upcoming",
+				path: "/upcoming",
+				component: () => import("~@views/Upcoming.vue"),
+				meta: { isPublic: false },
+			},
+			{
+				name: "History",
+				path: "/history",
+				component: () => import("~@views/History.vue"),
+				meta: { isPublic: false },
+			},
 		],
 	},
 ];

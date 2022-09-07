@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import SideBar from "~@components/SideBar.vue";
 import Header from "~@components/Header.vue";
 import Footer from "~@components/Footer.vue";
 </script>
@@ -7,8 +6,9 @@ import Footer from "~@components/Footer.vue";
 <template>
 	<Header />
 	<main>
-		<SideBar />
-		<router-view />
+		<div class="card">
+			<router-view />
+		</div>
 	</main>
 	<Footer />
 </template>
