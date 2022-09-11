@@ -4,3 +4,4 @@
 	</div>
 </template>
 <style class=""></style>
+<script setup></script>

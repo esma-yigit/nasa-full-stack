@@ -1,3 +1,9 @@
 {
-	"hi": "Hello"
+	"hi": "Hello",
+	"nav": {
+		"home": "Home",
+		"launch": "Launch",
+		"upcoming": "Upcoming",
+		"history": "History"
+	}
 }
